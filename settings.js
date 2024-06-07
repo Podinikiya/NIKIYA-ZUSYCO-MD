@@ -19,7 +19,7 @@ module.exports = {
   OWNER_NUMBER: "94774574323",
   SUDO_NUMBERS : "94743587643,94774574323",
   OWNER_NAME: "『 𝙼𝚁 𝙸𝙼𝙴𝚂𝙷 』",
-  BOT_NAME : "ＺＵＳＹＣＯ",
+  BOT_NAME : "IMESH BOT",
   ZUSYCO_FILE : "ZUSYCO-QR",
   LOGOS: {
     ALIVE: 'https://i.ibb.co/YTWznr9/ZUSYCO-ALIVE-IMAGE-LOWQ.jpg',
@@ -33,7 +33,7 @@ module.exports = {
   DESABLE_WELCOME_GOODBYE_JIDS : [],
   TIME_ZONE :  "Asia/Colombo",
   WORK_TYPE : "public",
-  WORK_MODE : "onlyinbox",
+  WORK_MODE : "onlygroup",
   WORK_MODE_MESSAGE_SEND : false,
   CAPTION : '© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ IMESH ᴍᴅ ʙᴏᴛ',
   STICKER_PACK : '[ ZUSYCO ]',
@@ -50,7 +50,7 @@ module.exports = {
   READ : {
      ALL_MESSAGES : false,
      ONLY_COMMANDS : false,
-     STATUS : false,
+     AUTO_STATUS_VIEW: process.env.AUTO_STATUS_VIEW || 'true',
   },
   BOT_OFFLINE : false,
   INBOX_BLOCK : false,
